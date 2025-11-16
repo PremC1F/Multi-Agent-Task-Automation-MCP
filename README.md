@@ -1,6 +1,6 @@
 # Multi-Agent Task Automation Platform with MCP
 
-[![CI/CD Pipeline](https://github.com/yourusername/Multi-Agent-Task-Automation-MCP/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/yourusername/Multi-Agent-Task-Automation-MCP/actions)
+[![CI/CD Pipeline](https://github.com/PremC1F/Multi-Agent-Task-Automation-MCP/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/PremC1F/Multi-Agent-Task-Automation-MCP/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -116,7 +116,7 @@ graph TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Multi-Agent-Task-Automation-MCP.git
+git clone https://github.com/PremC1F/Multi-Agent-Task-Automation-MCP.git
 cd Multi-Agent-Task-Automation-MCP
 
 # Start all services
@@ -386,20 +386,6 @@ LOG_LEVEL=INFO
 ENVIRONMENT=development
 ```
 
-## Future Enhancements
-
-### Planned Features
-
-- [ ] **Multi-Node Coordination**: Distribute agents across multiple nodes
-- [ ] **Dynamic Scaling**: Auto-scale agents based on workload
-- [ ] **Advanced MCP Features**: Context sharing, agent negotiation
-- [ ] **Streaming Results**: WebSocket support for real-time updates
-- [ ] **Agent Learning**: Reinforcement learning for workflow optimization
-- [ ] **Plugin System**: Custom agent types via plugin architecture
-- [ ] **Monitoring Dashboard**: Real-time metrics visualization
-- [ ] **Rate Limiting**: Per-user workflow quotas
-- [ ] **Authentication**: JWT-based API security
-- [ ] **Data Sources**: Integration with external APIs (GitHub, ArXiv, etc.)
 
 ### Architecture Evolution
 
@@ -435,28 +421,6 @@ docker-compose logs postgres
 - Check agent logs for errors
 - Verify Redis pub/sub channels
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- **Model Context Protocol (MCP)**: Inspired by Anthropic's context management
-- **FastAPI**: High-performance async web framework
-- **Hugging Face**: Transformers library for NLP
-- **Redis**: Ultra-fast pub/sub messaging
-
-## Contact
-
-**Kanap** - [kanap@example.com](mailto:kanap@example.com)
 
 Project Link: [https://github.com/kanap/Multi-Agent-Task-Automation-MCP](https://github.com/kanap/Multi-Agent-Task-Automation-MCP)
 
